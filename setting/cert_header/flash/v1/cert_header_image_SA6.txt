@@ -1,0 +1,22 @@
+../setting/cert_header/flash/v1/binary/bl33_image_num.bin          00000000
+../setting/cert_header/flash/v1/binary/bl33_start_address_1.bin    00000004
+../setting/cert_header/flash/v1/binary/bl33_start_address_2.bin    00000008
+../setting/cert_header/flash/v1/binary/bl33_start_address_3.bin    0000000C
+../setting/cert_header/flash/v1/binary/bl33_start_address_4.bin    00000010
+../setting/cert_header/flash/v1/binary/bl33_start_address_5.bin    00000014
+../setting/cert_header/flash/v1/binary/bl33_start_address_6.bin    00000018
+../setting/cert_header/flash/v1/binary/bl33_start_address_7.bin    0000001C
+../setting/cert_header/flash/v1/binary/bl33_start_address_8.bin    00000020
+
+../input/bl31_cert.bin                                             00000400
+../input/bl32_cert.bin                                             00000800
+../input/bl33_cert.bin                                             00000c00
+#../input/bl332_cert.bin                                           00001000
+#../input/bl333_cert.bin                                           00001400
+#../input/bl334_cert.bin                                           00001800
+#../input/bl335_cert.bin                                           00001C00
+#../input/bl336_cert.bin                                           00002000
+#../input/bl337_cert.bin                                           00002400
+#../input/bl338_cert.bin                                           00002800
+
+#end of file

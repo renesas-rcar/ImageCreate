@@ -1,0 +1,4 @@
+../input/rtos_cert.bin                                             00000000
+../input/bl2_cert.bin                                              00000800
+
+#end of file

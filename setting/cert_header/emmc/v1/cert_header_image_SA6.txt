@@ -1,0 +1,34 @@
+../setting/cert_header/emmc/v1/binary/bl33_image_num.bin          00000000
+../setting/cert_header/emmc/v1/binary/bl31_start_address.bin      00000008
+../setting/cert_header/emmc/v1/binary/bl31_partition.bin          00000010
+../setting/cert_header/emmc/v1/binary/bl32_start_address.bin      00000018
+../setting/cert_header/emmc/v1/binary/bl32_partition.bin          00000020
+../setting/cert_header/emmc/v1/binary/bl33_start_address_1.bin    00000028
+../setting/cert_header/emmc/v1/binary/bl33_partition_1.bin        00000030
+../setting/cert_header/emmc/v1/binary/bl33_start_address_2.bin    00000038
+../setting/cert_header/emmc/v1/binary/bl33_partition_2.bin        00000040
+../setting/cert_header/emmc/v1/binary/bl33_start_address_3.bin    00000048
+../setting/cert_header/emmc/v1/binary/bl33_partition_3.bin        00000050
+../setting/cert_header/emmc/v1/binary/bl33_start_address_4.bin    00000058
+../setting/cert_header/emmc/v1/binary/bl33_partition_4.bin        00000060
+../setting/cert_header/emmc/v1/binary/bl33_start_address_5.bin    00000068
+../setting/cert_header/emmc/v1/binary/bl33_partition_5.bin        00000070
+../setting/cert_header/emmc/v1/binary/bl33_start_address_6.bin    00000078
+../setting/cert_header/emmc/v1/binary/bl33_partition_6.bin        00000080
+../setting/cert_header/emmc/v1/binary/bl33_start_address_7.bin    00000088
+../setting/cert_header/emmc/v1/binary/bl33_partition_7.bin        00000090
+../setting/cert_header/emmc/v1/binary/bl33_start_address_8.bin    00000098
+../setting/cert_header/emmc/v1/binary/bl33_partition_8.bin        000000A0
+
+../input/bl31_cert.bin                                            00000400
+../input/bl32_cert.bin                                            00000C00
+../input/bl33_cert.bin                                            00001400
+#../input/bl332_cert.bin                                           00001C00
+#../input/bl333_cert.bin                                           00002400
+#../input/bl334_cert.bin                                           00002C00
+#../input/bl335_cert.bin                                           00003400
+#../input/bl336_cert.bin                                           00003C00
+#../input/bl337_cert.bin                                           00004400
+#../input/bl338_cert.bin                                           00004C00
+
+#end of file

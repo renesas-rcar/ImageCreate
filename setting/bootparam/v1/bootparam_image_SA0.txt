@@ -1,0 +1,5 @@
+../setting/bootparam/v1/binary/bootrom_param.bin   00000000
+../input/bl2_cert.bin                              00000800
+../input/sb_key_cert.bin                           00000c00
+
+#end of file

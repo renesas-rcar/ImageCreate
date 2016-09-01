@@ -1,0 +1,7 @@
+# .gitignore
+# Ignore files and/or directories.
+/bin/*
+!/bin/bin_create.c
+/input/
+/output/
+/temp/
