@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015-2016, Renesas Electronics Corporation
+ * Copyright (c) 2015-2017, Renesas Electronics Corporation
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -85,7 +85,7 @@ int main(int argc, char **argv)
 	if (fp3 == NULL) {
 		free(read_buf);
 		free(write_buf);
-		printf("parameter parameter file open error\n");
+		printf("parameter file open error\n");
 		return -1;
 	} else {
 		/* parameter file read */

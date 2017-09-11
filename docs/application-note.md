@@ -66,6 +66,8 @@ The default setting of the "make_flash_image.sh" is specified as follows.
 **setting/bootparam/v2/bootparam_image_SA0.txt**  
 **setting/cert_header/flash/v2/cert_header_image_SA6.txt**  
 
+Note: If your SoC product is "H3 ver1.0", "H3 ver1.1" or "M3 ver1.0", please use "setting/bootparam/v1/bootparam_image_SA0.txt" instead.
+
 The configuration file of data file structure is very simple.  
 Just specify the data file and offset to be combined on each line.  
 

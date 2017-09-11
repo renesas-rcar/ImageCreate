@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo make_flash_image.sh - ImageCreate V1.00 Apr.27,2017
+echo make_flash_image.sh - ImageCreate V1.0.5 Aug.31,2017
 
 export MAKE_IMAGE_PATH=$PWD
 
