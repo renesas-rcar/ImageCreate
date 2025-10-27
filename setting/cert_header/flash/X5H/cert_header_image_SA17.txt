@@ -1,0 +1,7 @@
+../input/KeyCert_RSA3072.bin 00000000
+../input/CodeCert_RSA3072_App_SCP_X5H_Sample.bin 00001000
+../input/CodeCert_2nd_ipl_rt_core_cluster2_core0_RSA3072.bin 00003000
+../input/CodeCert_MAC_tag_0x0.bin 0003F000
+../input/CodeCert_MAC_tag_0x0.bin 0003F028
+
+#end of file
