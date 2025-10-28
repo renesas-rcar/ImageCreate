@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo make_flash_image_x5h.sh - ImageCreate V2.0.0 Aug.8,2025
+echo make_flash_image.sh - ImageCreate V2.0.0 Aug.8,2025
 
 export MAKE_IMAGE_PATH=$PWD
 
@@ -16,7 +16,7 @@ $MAKE_IMAGE_PATH/bin/bin_create $MAKE_IMAGE_PATH/$SETTING_BOOTPARAM_PATH/bootpar
 $MAKE_IMAGE_PATH/bin/bin_create $MAKE_IMAGE_PATH/$SETTING_CERT_HEADER_PATH/cert_header_image_SA17.txt $MAKE_IMAGE_PATH/temp/cert_header_sa17.bin
 $MAKE_IMAGE_PATH/bin/bin_create $MAKE_IMAGE_PATH/$SETTING_FLASH_PATH/bootparam_image_fwriter.txt $MAKE_IMAGE_PATH/temp/flash_writer_rsip_m_scif_download.bin
 
-objcopy -I binary -O srec --adjust-vma=0x18400000 --srec-forceS3 $MAKE_IMAGE_PATH/temp/bootrom_param_x5h.bin $MAKE_IMAGE_PATH/output/bootparam_image_SA0_x5h.srec
+objcopy -I binary -O srec --adjust-vma=0x18400000 --srec-forceS3 $MAKE_IMAGE_PATH/temp/bootrom_param.bin $MAKE_IMAGE_PATH/output/bootparam_image_SA0.srec
 objcopy -I binary -O srec --adjust-vma=0x18480000 --srec-forceS3 $MAKE_IMAGE_PATH/temp/cert_header_sa17.bin $MAKE_IMAGE_PATH/output/cert_header_sa17.srec
 objcopy -I binary -O srec --adjust-vma=0x18401000 --srec-forceS3 $MAKE_IMAGE_PATH/temp/flash_writer_rsip_m_scif_download.bin $MAKE_IMAGE_PATH/output/flash_writer_rsip_m_scif_download_SB.srec
 
