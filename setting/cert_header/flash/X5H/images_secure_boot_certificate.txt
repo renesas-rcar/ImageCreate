@@ -1,0 +1,26 @@
+../input/kc_rsa3072.bin 00000000
+../input/cc_rsa3072_configuration_table_a.bin 00001000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F000
+../input/cc_rsa3072_App_SCP_X5H_Sample.bin   00002000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F020
+../input/cc_rsa3072_2nd_ipl_rt_core_cluster2_core0.bin   00004000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F060
+../input/cc_rsa3072_test_rsip_m_lld.bin   00005000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F080
+../input/cc_rsa3072_test_bare_metal_rt_core_cluster0_core0.bin   00006000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F0A0
+../input/cc_rsa3072_test_bare_metal_rt_core_cluster0_core1.bin   00007000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F0C0
+../input/cc_rsa3072_test_bare_metal_rt_core_cluster1_core0.bin   00008000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F0E0
+../input/cc_rsa3072_u-boot-elf-ironhide.bin   00009000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F100
+../input/cc_rsa3072_tee-ironhide.bin   0000A000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F120
+../input/cc_rsa3072_bl31-ironhide.bin   0000B000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F140
+../input/cc_rsa3072_X5H_NPU0_FW.bin   0000C000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F160
+../input/cc_rsa3072_X5H_NPU1_FW.bin   0000D000
+../input/cc_rsa3072_MAC_tag_0x0.bin   0003F180
+#end of file

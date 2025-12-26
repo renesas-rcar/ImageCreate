@@ -1,5 +1,5 @@
-../input/KeyCert_RSA3072.bin 00000000
-../input/CodeCert_RSA3072_flash_writer_rsip_m.bin 00001000
-../input/flash_writer_rsip_m.bin 0000F000
+../input/kc_rsa3072.bin 00000000
+../input/cc_rsa3072_flash_writer_rsip_m.bin  00001000
+../input/flash_writer_rsip_m.bin    0000F000
 
 #end of file

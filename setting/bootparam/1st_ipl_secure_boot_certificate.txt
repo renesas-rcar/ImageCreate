@@ -1,0 +1,5 @@
+../setting/bootparam/binary/bootrom_param.bin    00000000
+../input/kc_rsa3072.bin 00001000
+../input/cc_rsa3072_1st_ipl_rsip_m.bin    00002000
+
+#end of file
